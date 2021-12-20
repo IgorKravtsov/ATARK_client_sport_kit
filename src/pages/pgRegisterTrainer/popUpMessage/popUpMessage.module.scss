@@ -1,0 +1,14 @@
+.wrapper {
+  background-color: darkgreen;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s all;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+}

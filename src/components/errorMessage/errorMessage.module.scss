@@ -1,0 +1,24 @@
+.error {
+  display: flex;
+
+  padding: 0 5px;
+  padding-right: 10px;
+  background: #DFB0B0;
+  /* Light pink for error DFB0B0/Light pink for error */
+  border: 0.3px solid #DFB0B0;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 18px;
+  color: var(--main-error-color);
+  visibility: hidden; //Change to see the error
+  &_img {
+    padding-right: 2px;
+    width: 30px;
+    height: 16px;
+  }
+
+  &_visible {
+    visibility: visible;
+  }
+}
